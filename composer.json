@@ -21,8 +21,8 @@
   ],
   "license":      "MIT",
   "require":      {
-    "jenssegers/mongodb": "^3.3.*",
-    "laravel/framework":  "^5.*"
+    "jenssegers/mongodb": "^3.3",
+    "laravel/framework":  "^5.0"
   },
   "require-dev":  {
     "phpunit/phpunit": "^6.0|^7.0",
@@ -32,12 +32,5 @@
     "psr-0": {
       "Artelogic\\MongoRelations": "src/"
     }
-  },
-  "autoload-dev": {
-    "classmap": [
-      "tests/TestCase.php",
-      "tests/models",
-      "tests/seeds"
-    ]
   }
 }
